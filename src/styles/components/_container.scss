@@ -1,11 +1,11 @@
 .container {
   max-width: 1500px;
   width: calc(100% - 100px);
-  margin: 0 auto;
+  margin: $margin-center;
 }
 
 .container-main {
   max-width: 992px;
   width: calc(100% - 256px);
-  margin: 0 auto;
+  margin: $margin-center;
 }
