@@ -1,14 +1,8 @@
 .nav {
   &__list {
-    display: flex;
-  }
-
-  &__item {
-    margin-left: 20px;
-
-    &:first-child {
-      margin-left: 0;
-    }
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 20px;
   }
 
   &__link {
